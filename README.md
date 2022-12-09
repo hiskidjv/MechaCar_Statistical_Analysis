@@ -4,9 +4,11 @@
 Helping AutosRUs to review their product development for the MechaCar.  Summaries below will discuss the results of each portion of the challenge (linear regression, summary stats, t-test, and additional study).
 
 1.  ## Linear Regression to Predict MPG
-    - Results: ![Mulitple Variable Linear Regression](Resources/Images/Linear_Regression.png)
+    - Results:
+    ![Mulitple Variable Linear Regression](Resources/Images/Linear_Regression.png)
 
     - Answers to Questions:
+
     a. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
         -- Both spoiler_angle and vehicle_weight coefficients are approaching 0 (approx. 0.07 and 0.001 
@@ -33,9 +35,11 @@ Helping AutosRUs to review their product development for the MechaCar.  Summarie
         effect should be factored in for a more precise and accurate prediction.
         
 2.  ## Summary Statistics on Suspension Coils
-    - Results: ![Overall and Lot Stats](Resources/Images/Summary_Stats.png)
+    - Results:
+    ![Overall and Lot Stats](Resources/Images/Summary_Stats.png)
 
     - Answers to Questions:
+
     The design specifications for the MechaCar suspension coils dictate that the variance of the suspension 
     coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design 
     specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -45,11 +49,15 @@ Helping AutosRUs to review their product development for the MechaCar.  Summarie
         lots together has a variance of only 62, which remains under the given limit.
 
 3.  ## T-Tests on Suspension Coils
-    - Results: ![Overall](Resources/Images/TTest0.png) ![Each Lot](Resources/Images/TTest123.png)
+    - Results:
+    ![Overall](Resources/Images/TTestO.png) ![Each Lot](Resources/Images/TTest123.png)
 
     - Interpretation:
+
     Similar to looking at the variance of the lots, the overall score shows a statistically meaningful sample 
-    with reliable randomness (p values of 0.06 is still over 0.05).  However, when looking at each lot (p values of 1, 0.6, and 0.04 respective to lots 1,2,and 3) we see that the third lot drops under 0.05 and suggests something is affecting the sample that should be investigated, despite its mean being close.
+    with reliable randomness (p values of 0.06 is still over 0.05).  However, when looking at each lot (p 
+    values of 1, 0.6, and 0.04 respective to lots 1,2,and 3) we see that the third lot drops under 0.05 and 
+    suggests something is affecting the sample that should be investigated, despite its mean being close.
 
 4.  ## Additional Study
 
